@@ -1,14 +1,15 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+#todos {
+  list-style: none;
+  padding: 0%;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+form ol, form li {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+form li {
+  display: inline;
+  padding-right: 0.25em;
 }
